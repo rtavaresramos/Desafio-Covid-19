@@ -1,0 +1,36 @@
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 60vh;
+  background: #2c92d5;
+}
+
+.footer-container h1{
+  font-size: 44px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+}
+.footer-container p{
+  margin-bottom: 30px;
+}
+h1,p,ul,a,li{
+  background: rgba(0,0,0,0);
+}
+
+.footer-container ul{
+  /* margin: 30px 0; */
+}
+
+.footer-container ul li{
+  color: #fff;
+  margin: 8px;
+  transition: filter .2s;
+}
+
+.footer-container ul li:hover{
+  filter: brightness(80%);
+

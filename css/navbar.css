@@ -1,0 +1,48 @@
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 20vh;
+  background: rgba(0,0,0,0);
+}
+
+.nav-container .logo h1{
+  z-index: 1;
+  position: absolute;
+  left: 140px;
+  top: 25px;
+  font-size: 50px;
+  font-weight: 300;
+  /* width: 150px; */
+  background: rgba(0,0,0,0);
+}
+
+.nav-container ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 40vw;
+  height: 100px;
+
+  margin: 10px 100px;
+
+  background: rgba(0,0,0,0);
+}
+
+.nav-container ul a{
+  font-weight: 600;
+  color: #13538a;
+  transition: filter .2s;
+  background: rgba(0,0,0,0);
+}
+
+.nav-container ul a:hover{
+  filter: brightness(160%);
+}
+
+.nav-container ul a li{
+
+  background: rgba(0,0,0,0);
+}
