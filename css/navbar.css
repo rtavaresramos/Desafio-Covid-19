@@ -10,12 +10,26 @@
 .nav-container .logo h1{
   z-index: 1;
   position: absolute;
-  left: 140px;
+  display: flex;
+  align-items: center;
+  left: 60px;
   top: 25px;
-  font-size: 50px;
+  font-size: 28px;
   font-weight: 300;
-  /* width: 150px; */
+  color: #2c92d5;
+  text-transform: uppercase;
   background: rgba(0,0,0,0);
+
+}
+.nav-container .logo h1 i{
+  color: #2c92d5;
+  /* font-size: 1em; */
+  margin: 10px 0;
+}
+
+.nav-container .logo h1 span{
+color: #c7d0d8;
+margin: 0 5px;
 }
 
 .nav-container ul{

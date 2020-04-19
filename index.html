@@ -18,27 +18,34 @@
   <title>Portal Covid-19</title>
 </head>
 <body>
-  <nav>
+
+  <a href="#home">
+  <div class="up">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+  </a>
+  <nav id="home">
     <div class="nav-container">
       <div class="logo">
-        <!-- <img src="./assets/logo-covid.png" alt=""> -->
-        <h1>Portal Covid-19</h1>
+        <h1> 
+          <img src="./assets/virus.png" alt="">
+          <span>Portal</span> C-19</h1>
       </div>
       <div class="navbar-items">
         <ul>
-          <a href="#">
+          <a href="#home">
             <li>Home</li>
           </a>
-          <a href="#">
+          <a href="#news">
             <li>Notícias</li>
           </a>
-          <a href="#">
+          <a href="#about">
             <li>Sobre</li>
           </a>
-          <a href="#">
+          <a href="#contact">
             <li>Contato</li>
           </a>
-          <a href="#">
+          <a href="#more-to-know">
             <li>Saiba mais</li>
           </a>
         </ul>
@@ -60,7 +67,7 @@
   </header>
 
   <main>
-    <div class="main-container">
+    <div id="news" class="main-container">
       <div class="news-container">
         <h1>#FEED DE NOTÍCIAS</h1>
           <p>Mais recentes</p>
@@ -74,7 +81,7 @@
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
             <img src="./assets/microsoft-news.png" alt="#">
             <div class="news-card-head">
@@ -98,7 +105,7 @@
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
             <div class="video-container">
               <iframe src="https://www.youtube.com/embed/-on2_n6K1bo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,7 +128,7 @@
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
             <img src="./assets/after-covid.png" alt="#">
             <div class="news-card-head">
@@ -189,7 +196,7 @@
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
             <div class="video-container">
               <iframe src="https://www.youtube.com/embed/I8k3G-AhJIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -212,7 +219,7 @@
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
             <img src="./assets/tech-news.jpg" alt="#">
             <div class="news-card-head">
@@ -307,17 +314,17 @@ Por fim, Marr diz que cientistas contam com acesso de supercomputadores e sistem
         <div class="news-item">
           <h4 id="use-info">
               <span><i class="fas fa-mouse-pointer"></i></span>
-              Passe o mouse sobre o card para expandir a notícia
+              Passe o mouse e o mantenha sobre o card para expandir a notícia
             </h4>
           <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/S6EQXaVJzxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HnRYx8_IjCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
             <div class="news-card-head">
               <h1>
-                OMS lista seis requisitos para afrouxar quarentena
+                Profissionais vão ao limite no hospital com mais casos
               </h1>
               <p>
-                Países europeus que já passaram pelo pico do contágio do coronavírus começam a afrouxar a quarentena. 
+                Conheça o esforço dos médicos e enfermeiros trabalhando no limite para salvar vidas.
               </p>
             </div>
             <div class="news-card-content">
@@ -333,7 +340,7 @@ Por fim, Marr diz que cientistas contam com acesso de supercomputadores e sistem
         </div>
       </div>
 
-    <div class="about-container">
+    <div id="about" class="about-container">
       <div id="about-img" class="mb-1">
         <img src="./assets/profile-img.jpeg">
       </div>
@@ -387,29 +394,30 @@ Por fim, Marr diz que cientistas contam com acesso de supercomputadores e sistem
   </main>
 
   <footer>
-    <div class="footer-container">
+    <div id="more-to-know" class="footer-container">
       <h1>Saiba mais</h1>
       <p>Aqui você encontra as fontes de cada uma de nossas notícias.</p>
-      <ul>
-        <a href="https://www.google.de/amp/s/exame.abril.com.br/tecnologia/microsoft-cria-mapa-em-tempo-real-da-pandemia-do-coronavirus/amp/" target="_blank">
-          <li>Matéria 1</li>
-        </a>
-        <a href="https://m.youtube.com/watch?v=-on2_n6K1bo&list=PLCX5XjxKTpTmE19iX5bWfiEQipTNFhaXh&index=2&t=0s" target="_blank">
-          <li>Matéria 2</li>
-        </a>
-        <a href="https://www.google.de/amp/s/brasil.elpais.com/opiniao/2020-04-13/como-o-coronavirus-vai-mudar-nossas-vidas-dez-tendencias-para-o-mundo-pos-pandemia.html%3foutputType=amp" target="_blank">
-          <li>Matéria 3</li>
-        </a>
-        <a href="https://m.youtube.com/watch?v=I8k3G-AhJIk" target="_blank">
-          <li>Matéria 4</li>
-        </a>
-        <a href="https://www.google.de/amp/s/amp.olhardigital.com.br/coronavirus/noticia/coronavirus-como-a-tecnologia-e-usada-para-combater-a-pandemia/98006" target="_blank">
-          <li>Matéria 5</li>
-        </a>
-        <a href="https://m.youtube.com/watch?v=S6EQXaVJzxQ" target="_blank">
-          <li>Matéria 6</li>
-        </a>
-      </ul>
+        <div class="logo-link-news-row-1">
+          <a class="logo-link-news" href="https://brasil.elpais.com/" target="_blank">
+            <img src="./assets/elpais-logo.png" alt="">
+          </a>
+          <a class="logo-link-news" href="https://www.band.uol.com.br" target="_blank">
+            <img src="./assets/band-logo.png" alt="">
+          </a>
+          <a class="logo-link-news" href="https://olhardigital.com.br" target="_blank">
+            <img src="./assets/olhardigital-logo.png" alt="">
+          </a>
+        </div>
+        
+        <div class="logo-link-news-row-2">
+          <a class="logo-link-news" href="https://www.bbc.com/portuguese" target="_blank">
+            <img src="./assets/bbcnews-logo.png" alt="">
+          </a>
+          <a class="logo-link-news" href="https:exame.abril.com.br" target="_blank">
+            <img src="./assets/exame-logo.png" alt="">
+          </a>
+        </div>
+
     </div>
   </footer>
 </body>
