@@ -60,7 +60,7 @@ h1,p,ul,a,li{
   flex-wrap: wrap;
   height: 100%;
 
-  margin: 10px;
+  margin: 10px auto;
   padding: 0 100px;
 
   background: rgba(0,0,0,0);
@@ -75,4 +75,20 @@ h1,p,ul,a,li{
 
   background: rgba(0,0,0,0);
 
+}
+
+@media (max-width:400px){
+  .logo-link-news{
+    width: 150px;
+    height: 150px;
+  }
+  
+}
+
+@media (max-width: 350px){
+  .logo-link-news{
+    width: 100px;
+    height: 100px;
+  }
+  
 }

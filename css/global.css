@@ -57,27 +57,43 @@ li{
 @media (max-width: 780px){
 
   .up{
-    position: fixed;
-    z-index: 10;
+   
     top: 85vh;
-    /* left: 90vw; */
-    border-radius: 50%;
+    left: 90vw;
   
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 
-    margin-right: 10px;
     font-size: 1em;
+  }
+}
+
+@media (max-width: 480px){
+
+  .up{
+   
+    top: 85vh;
+    left: 87vw;
   
-    display: flex; 
-    justify-content: center; 
-    overflow: hidden;
-    align-items: center; 
+    width: 50px;
+    height: 50px;
+
+    font-size: 1em;
+
+  }
+}
+
+@media (max-width: 350px){
+
+  .up{
+   
+    top: 85vh;
+    left: 82vw;
   
-    background:rgba(44,146,213,.9);
-  
-    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
-  
-    transition: filter .2s;
+    width: 50px;
+    height: 50px;
+
+    font-size: 1em;
+
   }
 }
