@@ -39,7 +39,7 @@ li{
   align-items: center; 
 
   background:rgba(44,146,213,.9);
-  /* opacity: .5; */
+
   box-shadow: 2px 2px 5px rgba(0,0,0,.3);
 
   transition: filter .2s;
@@ -52,4 +52,32 @@ li{
 .up i{
   font-size: 1.5em;
   color: #fff;
+}
+
+@media (max-width: 780px){
+
+  .up{
+    position: fixed;
+    z-index: 10;
+    top: 85vh;
+    /* left: 90vw; */
+    border-radius: 50%;
+  
+    width: 60px;
+    height: 60px;
+
+    margin-right: 10px;
+    font-size: 1em;
+  
+    display: flex; 
+    justify-content: center; 
+    overflow: hidden;
+    align-items: center; 
+  
+    background:rgba(44,146,213,.9);
+  
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+  
+    transition: filter .2s;
+  }
 }

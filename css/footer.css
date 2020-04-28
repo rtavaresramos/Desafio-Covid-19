@@ -1,11 +1,14 @@
 .footer-container{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   width: 100vw;
   height: auto;
   background: #2c92d5;
+  padding-bottom: 50px;
+
 }
 
 .footer-container h1{
@@ -43,6 +46,7 @@ h1,p,ul,a,li{
   height: 200px;
   display: flex; 
   justify-content: center; 
+  margin: 8px auto;
   align-items: center; 
 }
 
@@ -51,23 +55,23 @@ h1,p,ul,a,li{
 }
 .logo-link-news-row-1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100vw;
+  flex-wrap: wrap;
   height: 100%;
 
+  margin: 10px;
   padding: 0 100px;
 
   background: rgba(0,0,0,0);
 }
 .logo-link-news-row-2{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100vw;
-  height: 100%;
-
-  padding: 0 200px;
-
-  padding-bottom: 50px;
+  height: auto;
+  padding: 0 100px;
 
   background: rgba(0,0,0,0);
 

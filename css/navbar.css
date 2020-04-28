@@ -6,7 +6,26 @@
   height: 20vh;
   background: rgba(0,0,0,0);
 }
+.toggle{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: flex-end;
 
+  padding: 0 30px;
+  margin-top: -45px;
+  background: rgba(0,0,0,0);
+
+  border: unset;
+}
+
+.toggle i{
+  border: 1px solid rgba(0,0,0,.3);
+  padding: 8px 12px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
 .nav-container .logo h1{
   z-index: 1;
   position: absolute;
@@ -23,7 +42,7 @@
 }
 .nav-container .logo h1 i{
   color: #2c92d5;
-  /* font-size: 1em; */
+
   margin: 10px 0;
 }
 
@@ -59,4 +78,42 @@ margin: 0 5px;
 .nav-container ul a li{
 
   background: rgba(0,0,0,0);
+}
+
+@media (max-width: 780px){
+  .nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-top: 70px;
+    scroll-behavior: smooth;
+
+  }
+  .nav-items{
+    max-height: 100%;
+  }
+  .toggle-off{
+    max-height: 0;
+    pointer-events: none;
+    }
+  .nav-container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: auto;
+  
+    margin: 30px auto;
+  }
+
+  .nav-container ul a li{
+
+    margin: 10px 0;
+  }
+
+
 }

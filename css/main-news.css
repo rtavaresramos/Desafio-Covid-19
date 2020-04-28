@@ -124,3 +124,32 @@
   background: rgba(0,0,0,0);
 
 }
+
+@media (max-width: 780px){
+  html,body{
+    margin: 0;
+    padding: 0;
+  }
+.main-container{
+    
+    width: 100vw;
+    padding: 10px;
+  
+  }
+  
+  .news-item h4{
+    display: none;
+  }
+
+  .news-item{ 
+    height: 100%;
+  }
+
+  .news-item .news-card-head p{
+    margin: 6px;
+  }
+
+  .news-item img, .video-container{
+  height: auto;
+}
+}

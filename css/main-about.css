@@ -1,11 +1,12 @@
 .about-container{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   align-items: center;
   padding: 8px 60px;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
 .about-content{
@@ -17,7 +18,7 @@
   height: 70%;
 
   width: 700px;
-  margin: 0 30px;
+  margin: 30px;
 
   padding: 5px 18px;
   border-radius: 14px;
@@ -69,4 +70,34 @@
 i{
   margin-top: 8px;
   color: #545454;
+}
+
+@media (max-width:600px){
+
+
+  .about-container{
+    
+    padding: 8px;
+    
+  }
+
+  .about-content{
+
+    margin: 10px 0;
+  
+    padding: 5px;
+   
+  
+  }
+
+  #about-img{
+    
+    width: 250px;
+    height: 250px;
+  }
+  
+  #about-img img{
+    height: 270px;
+  }
+
 }
