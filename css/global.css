@@ -25,7 +25,7 @@ li{
 
 .up{
   position: fixed;
-  z-index: 10;
+  z-index: 20;
   top: 85vh;
   left: 90vw;
   border-radius: 50%;
